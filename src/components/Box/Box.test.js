@@ -5,7 +5,7 @@ import sinon from 'sinon';
 
 import Box from './Box';
 
-describe('Sum', () => {
+describe('Box', () => {
   it('should render without error', () => {
     const wrapper = shallow(<Box />);
     expect(wrapper).to.be.ok;
